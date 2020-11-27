@@ -1,0 +1,31 @@
+body {
+	max-width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid gray;
+	min-height: 80vh;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.skills-ul,
+.social-ul {
+	padding-left: 0.5rem;
+}
+
+.progress {
+	height: 8px;
+}
+
+.icon {
+	height: 16px;
+	width: 16px;
+}
+
+/* For print/saving as pdf only.. change size as per requirement */
+/* @page {
+	size: 24cm 26.7cm;
+	margin: 30mm 45mm 30mm 45mm;
+} */
